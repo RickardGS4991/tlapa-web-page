@@ -1,0 +1,429 @@
+<<<<<<< HEAD
+ @font-face {
+  font-family: Centra;
+  src: url(./assets/fonts/Ubuntu-Bold.ttf);
+  /* font-family: Centra;
+  src: url(./assets/fonts/CentraNo2-Bold.ttf); */
+  font-weight: 400;
+} 
+
+:root {
+  --greenN: #37fd12;
+  --greenB: #74b72e;
+  --greenW: #3db489;
+  --gold: #ffd700;
+  --blueA: #6decb9;
+}
+
+body{
+  /* background-color: #487346;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");  */
+  background: linear-gradient(90deg, var(--blueA) 0%, #0aa1dd 50%, rgba(33,85,205,1) 100%);
+  background-size: cover;
+  color: black !important;
+  font-family: "Centra", sans-serif !important;
+}
+
+/* NavBar CSS */
+nav.navbar{
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+  background-color: transparent;
+}
+
+nav.navbar.scrolled{
+  padding: 0px 0;
+  background-color: transparent;
+}
+
+nav.navbar a.navbar-brand{
+  width: 50%;
+}
+
+nav.navbar a.navbar-brand img{
+  box-shadow: 10px 5px 5px black;
+  border-radius: 50px;
+  width: 60%;
+  height: 60%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link{
+  font-weight: 650;
+  letter-spacing: 0.8px;
+  padding: 0px 30px;
+  font-size: 18px;
+  opacity: 0.60;
+  color: white;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link::before,
+nav.navbar .navbar-nav .nav-link.navbar-link.active{
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link:hover{
+  border: 2px solid rgb(11, 113, 1);
+  color: aliceblue;
+  border-radius: 50% 0;
+  background-color: #008a0c;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* Banner CSS */
+.banner{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 150px 0 100px;
+}
+
+.banner h1{
+  font-weight: 600;
+  font-size: 100px;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #fff;
+  display: block;
+=======
+.App {
+>>>>>>> parent of b7fbcb9 (Se agregaron nuevos componentes)
+  text-align: center;
+  transition: all 0.6s ease;
+}
+
+<<<<<<< HEAD
+.banner h1:hover{
+  color: var(--gold);
+  text-shadow: 2px 2px black;
+}
+
+.banner p{
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  width: 96%;
+  text-align: center;
+  display: block;
+  text-shadow: 2px 2px #fff;
+}
+
+.banner .intro{
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px black;
+  left: 20px;
+  transition: 0.6s ease-in-out;
+  animation: rotating 3s linear infinite;
+}
+
+@keyframes rotating{
+  0%,100%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(10deg);
+  }
+  50%{
+    transform: rotate(-10deg);
+  }
+  75%{
+    transform: rotate(10deg);
+  }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/* Carrousel CSS */
+.carrousel{
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.bg-img img{
+  width: 100%;
+}
+
+.carousel{
+  position: absolute;
+  top: -500px;
+  left: 800px;
+  width: 25%;
+  height: 25%;
+}
+
+.carousel .carousel-item h3{
+  color: goldenrod;
+  text-shadow: 2px 2px black;
+}
+
+.carousel .carousel-item p{
+  color: #6decb9;
+  text-shadow: 2px 2px black;
+}
+
+.carousel .carousel-item img{
+  border-radius: 20px;
+}
+
+/* Information CSS */
+.information{
+  position: relative;
+  top: 160px;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* .middle{
+  border: 2px solid gold;
+  width: 80%;
+  height: 700px;
+  display: flex;
+} */
+
+.collage{
+  position: absolute;
+  left: 8%;
+  top: 10%;
+}
+
+.card-box{
+  position: absolute;
+  right: 12%;
+}
+
+/* Card CSS */
+.card-body{
+  z-index: 3;
+  background-image: linear-gradient(90deg, var(--blueA) 0%, var(--greenW) 100%);
+  border: 3px solid var(--greenB);
+  transition: all 0.6s ease;
+}
+
+.card-body:hover{
+  box-shadow: 0 0 20px var(--gold);
+  border-color: var(--gold);
+}
+
+.card-body .card-title{
+  color: rgb(2, 119, 73);
+  text-align: center;
+}
+.card-body .card-text{
+  color: black;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Collage CSS */
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-container{
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 500px;
+}
+.gallery-container .gallery-wrap{
+  display: flex;
+  align-items: row;
+  width: 100%;
+  height: 85vh;
+=======
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+>>>>>>> parent of b7fbcb9 (Se agregaron nuevos componentes)
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+<<<<<<< HEAD
+
+.gallery-container .gallery-wrap .item:hover{
+  flex: 7;
+}
+
+.gallery-container:hover .gallery-wrap .item:not(:hover){
+  transform: scale(0.9);
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.gallery-container .item:first-of-type{
+  background-image: url(./assets/images/5.jpg);
+}
+
+.gallery-container .item:nth-last-of-type(2){
+  background-image: url(./assets/images/2.jpg);
+}
+
+.gallery-container .item:last-of-type{
+  background-image: url(./assets/images/4.jpg);
+}
+
+/* Footer CSS */
+.final{
+  position: relative;
+  height: 100px;
+}
+
+.finalimg{
+  position: relative;
+  top: 20px;
+  width: 100%;
+}
+
+.finalimg .img1{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  transition: 0.6s ease-in-out;
+  animation: updown 3s linear infinite;
+  opacity: 1;
+}
+.finalimg .img2{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  transition: 0.8s ease-in-out;
+  animation: downup 3s linear infinite;
+  opacity: 0.2;
+}
+.finalimg .img3{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  transition: 0.6s ease-in-out;
+  animation: updown 3s linear infinite;
+  opacity: 0.5;
+}
+.finalimg .img4{
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  transition: 0.8s ease-in-out;
+  animation: downup 3s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes updown{
+  0%, 100%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(10px);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  75%{
+    transform: translateY(10px);
+  }
+}
+
+@keyframes downup{
+  0%,100%{
+    transform: translateY(14px)
+  }
+  25%{
+    transform: translateY(7px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(7px);
+  }
+}
+
+.copyright-links{
+  color: aliceblue !important;
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  background-color: #0aa1dd;
+}
+
+.copyright-links>.row{
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid gold;
+}
+
+.copyright-links .row .column{
+  height: 30%;
+  width: 10%;
+  text-align: center;
+}
+
+.copyright-links > .copy{
+  text-align: center;
+}
+
+.column>a{
+  outline: none;
+  text-decoration: none;
+  color: aliceblue;
+  opacity: 0.6;
+}
+
+.column>a:hover{
+  color: aliceblue;
+  opacity: 1;
+}
+
+.active-footer{
+  color: aliceblue;
+  opacity: 1;
+}
+=======
+>>>>>>> parent of b7fbcb9 (Se agregaron nuevos componentes)
